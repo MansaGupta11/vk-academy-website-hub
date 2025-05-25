@@ -14,9 +14,16 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <Link to="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold text-vk-blue">VK</span>
-          <span className="text-2xl font-medium">Academy</span>
+        <Link to="/" className="flex items-center space-x-3">
+          <img 
+            src="/lovable-uploads/93bf4007-b628-4258-819d-736e6428070a.png" 
+            alt="VK Academy Logo" 
+            className="h-10 w-auto"
+          />
+          <div>
+            <span className="text-xl font-bold text-vk-blue">VK</span>
+            <span className="text-xl font-medium">Academy</span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
@@ -37,7 +44,7 @@ const Navbar = () => {
 
         <div className="hidden md:block">
           <Button className="bg-vk-blue hover:bg-vk-indigo text-white">
-            Enroll Now
+            Visit Our Center
           </Button>
         </div>
 
@@ -84,7 +91,7 @@ const Navbar = () => {
               Contact
             </Link>
             <Button className="bg-vk-blue hover:bg-vk-indigo text-white w-full mt-2">
-              Enroll Now
+              Visit Our Center
             </Button>
           </div>
         </div>

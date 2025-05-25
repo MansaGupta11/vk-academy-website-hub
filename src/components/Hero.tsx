@@ -30,6 +30,15 @@ const Hero: React.FC<HeroProps> = ({
       <div className="container mx-auto px-4 py-20 md:py-32 flex flex-col md:flex-row items-center">
         {/* Text Content */}
         <div className="md:w-1/2 z-10 animate-slide-up">
+          {/* Logo */}
+          <div className="mb-6">
+            <img 
+              src="/lovable-uploads/93bf4007-b628-4258-819d-736e6428070a.png" 
+              alt="Ide@ScriptAI Logo" 
+              className="h-16 w-auto"
+            />
+          </div>
+          
           <span className="bg-vk-blue text-white text-sm font-medium px-3 py-1 rounded-full mb-4 inline-block">
             {subtitle}
           </span>
@@ -39,6 +48,16 @@ const Hero: React.FC<HeroProps> = ({
           <p className="text-lg text-gray-600 mb-8 max-w-lg">
             {description}
           </p>
+          
+          {/* Offline Learning Badge */}
+          <div className="bg-green-100 border border-green-300 rounded-lg p-4 mb-6">
+            <div className="flex items-center">
+              <div className="h-3 w-3 bg-green-500 rounded-full mr-2"></div>
+              <span className="text-green-800 font-medium">In-Person Classes Available</span>
+            </div>
+            <p className="text-green-700 text-sm mt-1">Join our physical classroom for interactive learning</p>
+          </div>
+          
           <div className="flex flex-wrap gap-4">
             <Button 
               asChild
@@ -69,7 +88,7 @@ const Hero: React.FC<HeroProps> = ({
             <div className="absolute inset-0 bg-vk-blue rounded-xl transform translate-x-4 translate-y-4 opacity-20"></div>
             <img
               src={imageUrl}
-              alt="Students learning"
+              alt="Students in classroom"
               className="relative z-10 rounded-xl shadow-lg w-full h-auto object-cover"
               style={{ maxHeight: '500px' }}
             />
