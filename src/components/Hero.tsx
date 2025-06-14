@@ -33,7 +33,7 @@ const Hero: React.FC<HeroProps> = ({
           {/* Logo */}
           <div className="mb-6">
             <img 
-              src="vk-academy-website-hub\public\uploads\vk_Academy_logo.png" 
+              src="/uploads/vk_Academy_logo.png" 
               alt="VK Academy Logo" 
               className="h-16 w-auto"
             />
