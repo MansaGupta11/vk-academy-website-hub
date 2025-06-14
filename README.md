@@ -1,4 +1,4 @@
-
+deployed URL : https://vk-academy-website-hub.vercel.app/
 ## How can I edit this code?
 
 There are several ways of editing your application.
@@ -49,5 +49,8 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+
+## deployed link
 
 
