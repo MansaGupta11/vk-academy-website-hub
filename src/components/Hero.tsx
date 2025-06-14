@@ -33,8 +33,8 @@ const Hero: React.FC<HeroProps> = ({
           {/* Logo */}
           <div className="mb-6">
             <img 
-              src="/lovable-uploads/93bf4007-b628-4258-819d-736e6428070a.png" 
-              alt="Ide@ScriptAI Logo" 
+              src="/lovable-uploads/0be52219-9b9e-4db7-a086-18f7cff90e94.png" 
+              alt="VK Academy Logo" 
               className="h-16 w-auto"
             />
           </div>
