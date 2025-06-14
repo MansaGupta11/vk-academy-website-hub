@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-3">
           <img 
-            src="/lovable-uploads/0be52219-9b9e-4db7-a086-18f7cff90e94.png" 
+            src="/vk_Academy_Logo.png" 
             alt="VK Academy Logo" 
             className="h-10 w-auto"
           />
